@@ -1,8 +1,8 @@
-from django.http import HttpResponse
+from django.shortcuts import render
 
 def list_client(request):
-    return HttpResponse('bon meilleur travail')
+    return render(request,'client/list_client.html')
 
-from django.shortcuts import render
+
 
 # Create your views here.
